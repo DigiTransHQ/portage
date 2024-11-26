@@ -25,7 +25,6 @@
 * Filter relevant environments for new apps
 
 Refer to the [CHANGELOG](https://portage.digi-trans.org/docs/CHANGELOG) for a complete list of new features and capabilities.
-# Portage on AWS
 
 Portage Provides a new developer experience to simplify the use and consumption of AWS services while minimizing required expertise in cloud infrastructure technologies.  
 Built on the [Backstage open platform](https://backstage.io), this solution makes the AWS cloud more accessible to application developers allowing them to focus on building application logic and delivering business value.
@@ -34,5 +33,5 @@ This solution leverages the flexibility and extensibility of the Backstage platf
 
 :clapper: **Demonstrations and Tutorials**
 
-[Portage on AWS Website](https://portage.digi-trans.org) <br/>
-[Portage on AWS Documentation](https://portage.digi-trans.org/docs/intro) <br/>
+[Portage Website](https://portage.digi-trans.org) <br/>
+[Portage Documentation](https://portage.digi-trans.org/docs/intro) <br/>
