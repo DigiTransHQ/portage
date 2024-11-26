@@ -11,9 +11,9 @@ type FeatureGroup = {
 
 const opaMainVideoContent = (
   <div className='opa-video-item'>
-  <h4>The Platformers - Portage on AWS</h4>
+  <h4>The Platformers - Portage</h4>
   <iframe width="400" height="225" src="https://www.youtube.com/embed/h9HwnkkmQPA/1.jpg?" title="What is OPA on AWS + Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div> 
+</div>
 )
 
 const opaSecondVideoContent = (
