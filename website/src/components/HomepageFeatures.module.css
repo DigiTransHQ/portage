@@ -1,0 +1,25 @@
+.features {
+  display: flex;
+  align-items: center;
+  padding: 3rem 2rem;
+  width: 100%;
+}
+
+.featureSvg {
+  height: 200px;
+  width: 200px;
+}
+
+.featureRow {
+  /* width: 100%; */
+  margin: auto;
+}
+.featureRow:nth-child(even) {
+  background-color: #eee;
+}
+
+.sectionItem {
+  /* padding: 0 !important; */
+  align-items: stretch;
+  /* margin: 2rem; */
+}
