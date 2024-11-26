@@ -55,7 +55,7 @@ diff -Naur --exclude=node_modules --exclude=*aws-apps* --exclude=package.json --
 +    - host: ${GITHUB_HOSTNAME}
        # This is a Personal Access Token or PAT from GitHub. You can find out how to generate this token, and more information
        # about setting up the GitHub integration here: https://backstage.io/docs/integrations/github/locations#configuration
-       token: ${GITHUB_TOKEN}
+       token: ${API_GITHUB_TOKEN}
 @@ -42,7 +61,15 @@
      # - host: ghe.example.net
      #   apiBaseUrl: https://ghe.example.net/api/v3

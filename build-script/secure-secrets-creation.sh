@@ -28,12 +28,12 @@ if [[ ! -z "$GITHUB_SECRET_NAME" ]]; then
         echo -e "\nCreating/Updating GitHub $GITHUB_SECRET_NAME secret...\n"
 
         # Validation of required settings
-        if [[ -z "$GITHUB_TOKEN" ]]; then
-            echo_error "GITHUB_TOKEN must be set" >&2;
+        if [[ -z "$API_GITHUB_TOKEN" ]]; then
+            echo_error "API_GITHUB_TOKEN must be set" >&2;
             exit 1
         fi
 
-        echo "{\"username\": \"opa-admin\", \"apiToken\": \"$GITHUB_TOKEN\", \"password\": \"\"}" > $scriptDir/tempSecretToCreate.json
+        echo "{\"username\": \"opa-admin\", \"apiToken\": \"$API_GITHUB_TOKEN\", \"password\": \"\"}" > $scriptDir/tempSecretToCreate.json
 
         if cmdOutput=$(aws secretsmanager describe-secret --secret-id $GITHUB_SECRET_NAME 2> /dev/null); then
             echo "Updating existing secret:"
